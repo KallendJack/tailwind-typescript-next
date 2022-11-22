@@ -1,5 +1,5 @@
 {
-    "name": "rolled-sleeves-v2-next",
+    "name": "tailwind-typescript-next",
     "private": true,
     "scripts": {
         "build": "next build",
@@ -15,10 +15,10 @@
         "test": "jest && cypress run"
     },
     "lint-staged": {
-        "*.{css,less,scss,html,json,jsx,js,tsx,ts}": [
+        "*.{css,less,scss,html,json,js,ts,jsx,tsx}": [
             "prettier --write ."
         ],
-        "*.{jsx,js,tsx,ts}": "eslint . --fix"
+        "*.{js,ts,jsx,tsx}": "eslint . --fix"
     },
     "config": {
         "commitizen": {
@@ -26,18 +26,12 @@
         }
     },
     "dependencies": {
-        "@contentful/rich-text-html-renderer": "^15.13.1",
         "@headlessui/react": "^1.7.4",
         "@heroicons/react": "^2.0.13",
-        "contentful": "^9.2.12",
-        "embla-carousel": "^7.0.5",
-        "framer-motion": "^7.6.7",
         "next": "13.0.4",
-        "node-ses": "^3.0.3",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "react-hook-form": "^7.39.5",
-        "react-modal-video": "^1.2.10",
         "sass": "^1.56.1",
         "zustand": "^4.1.4"
     },
