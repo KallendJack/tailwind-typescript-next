@@ -4,7 +4,4 @@ module.exports = {
     experimental: {
         appDir: true,
     },
-    images: {
-        domains: ['images.ctfassets.net', 'downloads.ctfassets.net'],
-    },
 }
