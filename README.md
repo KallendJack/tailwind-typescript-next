@@ -1,4 +1,4 @@
-# Next.js + Tailwind + TypeScript 
+# Next.js + Tailwind + TypeScript Template
 
 This is a quick start template, using the latest versions of NextJS, Tailwind and TypeScript with some other useful development tools included.
 
